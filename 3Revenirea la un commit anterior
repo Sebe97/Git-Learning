@@ -1,3 +1,6 @@
 Pentru a reveni la un commit anterior din linia de comanda procedam in felul urmator:
 1. git log (pentru a vedea commitul si detalii despre commit)
 2. git log --oneline pentru a vedea mai concis (fara autor si data)
+3. pentru a vedea (readOnly) codul dintr-un commit anterior: git checkout "0895eed"  (codul fiind id-ul commitului, cel cu galben)
+4. pentru a putea face si modificari folosim: git revert "0895eed"
+5. pentru a ne intoarce definitiv folosim: git delete "0895eed"
