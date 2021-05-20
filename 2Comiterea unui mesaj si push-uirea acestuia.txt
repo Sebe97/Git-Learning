@@ -1,0 +1,6 @@
+
+Pasii pe care trebuie sa ii urmez pentur a face commit si push din linia de comanda sunt:
+1. git add .
+2. git commit -m "mesajul comitului"
+3. git push
+
